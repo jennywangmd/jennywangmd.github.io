@@ -13,7 +13,7 @@ function OnCalculateButtonClick() {
     console.log(endTime);
 
     const duration = moment.duration(endTime.diff(startTime));
-    console.log(Math.floor(duration.asHours())+ " h" + duration.minutes() + "   m");
+    console.log(Math.floor(duration.asHours())+ "h" + duration.minutes() + "m");
 }
 
 function OnLoad() {
