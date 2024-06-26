@@ -2,17 +2,19 @@
 <html>
   <head>
     <title>Fix Time Calc</title>
+    <script type="text/javascript" src="moment.js"></script>
+    <script type="text/javascript" src="calculator.js"></script>
   </head>
   <body>
     <h2>Fixation Time Calculator</h2>
     <p>Start time</p>
-    <input type="text"/>
+    <input id="InputStartTime" type="text"/>
     <p>End time</p>
-    <input type="text"/>
+    <input id="InputEndTime" type="text"/>
     <p>Total fixation time:</p>
     <p><b></b></p>
     <br/><br/>
-    <button>Calculate</button>
+    <button id="calculateButton">Calculate</button>
     <br/><br/>
     <button>Reset</button>
   </body>
