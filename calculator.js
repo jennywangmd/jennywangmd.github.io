@@ -16,7 +16,7 @@ function OnCalculateButtonClick() {
     console.log(Math.floor(duration.asHours())+ "H" + duration.minutes() + "M");
 
     const totalFixTime = document.getElementById("TotalFixTime");
-    totalFixTime.textContent = Math.floor(duration.asHours())+ "h" + duration.minutes() + "m";
+    totalFixTime.textContent = Math.floor(duration.asHours())+ "H" + duration.minutes() + "M";
 }
 
 function OnLoad() {
